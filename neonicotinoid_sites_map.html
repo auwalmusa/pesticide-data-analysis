@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad1e62147829abdd1d6f1bbadac034b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad1e62147829abdd1d6f1bbadac034b9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad1e62147829abdd1d6f1bbadac034b9 = L.map(
+                "map_ad1e62147829abdd1d6f1bbadac034b9",
+                {
+                    center: [52.55527549139007, -0.05085277799922342],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b827fc24fb72e5eb4ac8d3add905a47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6b827fc24fb72e5eb4ac8d3add905a47.addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var marker_9c27a23017a6d1fd72b0f7bebd4d723e = L.marker(
+                [53.5129546182941, -0.491969358414001],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_750de47baf0579efd25a71454bd16ab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c27a23017a6d1fd72b0f7bebd4d723e.setIcon(icon_750de47baf0579efd25a71454bd16ab3);
+        
+    
+        var popup_e176f8cda62a5a28b59d6629c12bad83 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_09942adbc7d0435730bb7e2236dcfc85 = $(`<div id="html_09942adbc7d0435730bb7e2236dcfc85" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.ANCHOLME CADNEY BOTTOM<br><b>Number of Neonicotinoids:</b> 4<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiacloprid, Thiamethoxam</div>`)[0];
+                popup_e176f8cda62a5a28b59d6629c12bad83.setContent(html_09942adbc7d0435730bb7e2236dcfc85);
+            
+        
+
+        marker_9c27a23017a6d1fd72b0f7bebd4d723e.bindPopup(popup_e176f8cda62a5a28b59d6629c12bad83)
+        ;
+
+        
+    
+    
+            var marker_a6ec055a217f69737ca1a8b232aeb2f9 = L.marker(
+                [52.0338687102391, -2.62823009845419],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_ca9a283949178270271aab5476f8c1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6ec055a217f69737ca1a8b232aeb2f9.setIcon(icon_ca9a283949178270271aab5476f8c1cd);
+        
+    
+        var popup_08afbca74c5b16139fb0934b1ec55367 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6b99e53423b50ba282c7867242afa756 = $(`<div id="html_6b99e53423b50ba282c7867242afa756" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R LUGG AT MORDIFORD BRIDGE<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Acetamiprid, Clothianidin, Imidacloprid</div>`)[0];
+                popup_08afbca74c5b16139fb0934b1ec55367.setContent(html_6b99e53423b50ba282c7867242afa756);
+            
+        
+
+        marker_a6ec055a217f69737ca1a8b232aeb2f9.bindPopup(popup_08afbca74c5b16139fb0934b1ec55367)
+        ;
+
+        
+    
+    
+            var marker_7a19a24e2e985554fb331ab463574f61 = L.marker(
+                [53.5129546182941, -0.491969358414001],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_38e6e535d894148dfb95ee4d6ae78e78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a19a24e2e985554fb331ab463574f61.setIcon(icon_38e6e535d894148dfb95ee4d6ae78e78);
+        
+    
+        var popup_5177d9e7a0855f2b82c1035f2270c0bd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f49bdb78929214ef31e329cb56790a12 = $(`<div id="html_f49bdb78929214ef31e329cb56790a12" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.ANCHOLME CADNEY BOTTOM<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiamethoxam</div>`)[0];
+                popup_5177d9e7a0855f2b82c1035f2270c0bd.setContent(html_f49bdb78929214ef31e329cb56790a12);
+            
+        
+
+        marker_7a19a24e2e985554fb331ab463574f61.bindPopup(popup_5177d9e7a0855f2b82c1035f2270c0bd)
+        ;
+
+        
+    
+    
+            var marker_2b6d4c4ab30402c14fa991f2ab9d7d99 = L.marker(
+                [52.579097446717, -0.41497245145673],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_3e471988c9d255005ef42ac58d386de3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b6d4c4ab30402c14fa991f2ab9d7d99.setIcon(icon_3e471988c9d255005ef42ac58d386de3);
+        
+    
+        var popup_1f781a327067de51ce53b472c1286298 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7ed48c7810bcfc9e1b332a946f85a9e2 = $(`<div id="html_7ed48c7810bcfc9e1b332a946f85a9e2" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.NENE WANSFORD OLD RD.BR.<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiacloprid</div>`)[0];
+                popup_1f781a327067de51ce53b472c1286298.setContent(html_7ed48c7810bcfc9e1b332a946f85a9e2);
+            
+        
+
+        marker_2b6d4c4ab30402c14fa991f2ab9d7d99.bindPopup(popup_1f781a327067de51ce53b472c1286298)
+        ;
+
+        
+    
+    
+            var marker_83e0474b9b3e7744893d3daa718c3092 = L.marker(
+                [52.4711078161417, 1.47919737950697],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_33a7e33dbb8662c200e0a8dfb0af1b8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83e0474b9b3e7744893d3daa718c3092.setIcon(icon_33a7e33dbb8662c200e0a8dfb0af1b8f);
+        
+    
+        var popup_a7cd14e66e052cf17fe6c70b21f84410 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_43d5a96e1d44711393b9d62c9d5ad3d8 = $(`<div id="html_43d5a96e1d44711393b9d62c9d5ad3d8" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.WAVENEY ELLINGHAM MILL<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiamethoxam</div>`)[0];
+                popup_a7cd14e66e052cf17fe6c70b21f84410.setContent(html_43d5a96e1d44711393b9d62c9d5ad3d8);
+            
+        
+
+        marker_83e0474b9b3e7744893d3daa718c3092.bindPopup(popup_a7cd14e66e052cf17fe6c70b21f84410)
+        ;
+
+        
+    
+    
+            var marker_5fef7c3546f79e1010d68314d0f8e2c5 = L.marker(
+                [52.4711078161417, 1.47919737950697],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_34e038ca838718370a5ce15c336e1e42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fef7c3546f79e1010d68314d0f8e2c5.setIcon(icon_34e038ca838718370a5ce15c336e1e42);
+        
+    
+        var popup_6dbba4cc9d97f5f72a03fc21e91f5576 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8014762b588d22a3b8181df7b4ad9232 = $(`<div id="html_8014762b588d22a3b8181df7b4ad9232" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.WAVENEY ELLINGHAM MILL<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiamethoxam</div>`)[0];
+                popup_6dbba4cc9d97f5f72a03fc21e91f5576.setContent(html_8014762b588d22a3b8181df7b4ad9232);
+            
+        
+
+        marker_5fef7c3546f79e1010d68314d0f8e2c5.bindPopup(popup_6dbba4cc9d97f5f72a03fc21e91f5576)
+        ;
+
+        
+    
+    
+            var marker_861135bf0307f6314f81a661c5b9b719 = L.marker(
+                [52.4711078161417, 1.47919737950697],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_4e9680c63f3a1a05b18502ab66ddfbdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_861135bf0307f6314f81a661c5b9b719.setIcon(icon_4e9680c63f3a1a05b18502ab66ddfbdb);
+        
+    
+        var popup_29079dad17814c0dec77c57f4b35bea9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_49e32427101c27f603fdde6b690113e4 = $(`<div id="html_49e32427101c27f603fdde6b690113e4" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.WAVENEY ELLINGHAM MILL<br><b>Number of Neonicotinoids:</b> 3<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid, Thiamethoxam</div>`)[0];
+                popup_29079dad17814c0dec77c57f4b35bea9.setContent(html_49e32427101c27f603fdde6b690113e4);
+            
+        
+
+        marker_861135bf0307f6314f81a661c5b9b719.bindPopup(popup_29079dad17814c0dec77c57f4b35bea9)
+        ;
+
+        
+    
+    
+            var marker_10e4c95f6c2e37acc74c846de55de1da = L.marker(
+                [52.1668520239771, -0.306326217258074],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_853e34933191ce519f1a525f1a69b4e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10e4c95f6c2e37acc74c846de55de1da.setIcon(icon_853e34933191ce519f1a525f1a69b4e1);
+        
+    
+        var popup_28b81c8cba4f9f42287a0051c154cac7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ebc69a836170b9dc3cebed137b637ffa = $(`<div id="html_ebc69a836170b9dc3cebed137b637ffa" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.OUSE ROXTON LOCK<br><b>Number of Neonicotinoids:</b> 2<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid</div>`)[0];
+                popup_28b81c8cba4f9f42287a0051c154cac7.setContent(html_ebc69a836170b9dc3cebed137b637ffa);
+            
+        
+
+        marker_10e4c95f6c2e37acc74c846de55de1da.bindPopup(popup_28b81c8cba4f9f42287a0051c154cac7)
+        ;
+
+        
+    
+    
+            var marker_57f2862b6fbe0618b6a71fbe71485c69 = L.marker(
+                [52.1668520239771, -0.306326217258074],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_856ec1f41f5250d08c6afb7e6ff341f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57f2862b6fbe0618b6a71fbe71485c69.setIcon(icon_856ec1f41f5250d08c6afb7e6ff341f9);
+        
+    
+        var popup_ea3bda8c584d5034cdfd4b9b4c6b641d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f07e89f54ebbe7852849d8c0ae6bbb30 = $(`<div id="html_f07e89f54ebbe7852849d8c0ae6bbb30" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.OUSE ROXTON LOCK<br><b>Number of Neonicotinoids:</b> 2<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid</div>`)[0];
+                popup_ea3bda8c584d5034cdfd4b9b4c6b641d.setContent(html_f07e89f54ebbe7852849d8c0ae6bbb30);
+            
+        
+
+        marker_57f2862b6fbe0618b6a71fbe71485c69.bindPopup(popup_ea3bda8c584d5034cdfd4b9b4c6b641d)
+        ;
+
+        
+    
+    
+            var marker_36ed2cec2d31686b3d09f0a0c21a994e = L.marker(
+                [52.1668520239771, -0.306326217258074],
+                {}
+            ).addTo(map_ad1e62147829abdd1d6f1bbadac034b9);
+        
+    
+            var icon_9bd0bd5d25c9a3a2b2985a1a39bc4b3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36ed2cec2d31686b3d09f0a0c21a994e.setIcon(icon_9bd0bd5d25c9a3a2b2985a1a39bc4b3f);
+        
+    
+        var popup_0661409600d132586f39b214718d7ae2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_643580002eaf67be3eda66ba64ffd6ae = $(`<div id="html_643580002eaf67be3eda66ba64ffd6ae" style="width: 100.0%; height: 100.0%;"><b>Site:</b> R.OUSE ROXTON LOCK<br><b>Number of Neonicotinoids:</b> 2<br><b>Neonicotinoids Found:</b> Clothianidin, Imidacloprid</div>`)[0];
+                popup_0661409600d132586f39b214718d7ae2.setContent(html_643580002eaf67be3eda66ba64ffd6ae);
+            
+        
+
+        marker_36ed2cec2d31686b3d09f0a0c21a994e.bindPopup(popup_0661409600d132586f39b214718d7ae2)
+        ;
+
+        
+    
+</script>
+</html>
